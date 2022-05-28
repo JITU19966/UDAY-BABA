@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    color: red;
+    background-color: yellow;
+}
+
+h3 {
+    text-align: center;
+    color: blue;
+    text-shadow: rgb(0, 255, 34) 2px 0 2px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    text-decoration:none;
+}
+
+ul li {
+    padding: 10px;
+    text-decoration: none;
+}
+li{
+    text-decoration: none;
+}
+
+header {
+    color: darkred;
+    background: chartreuse;
+    text-decoration:none;
+}
+div{
+    display: flex;
+    justify-content: center;
+    height: 128px;
+    /* background-color: aqua; */
+   
+}
+footer{
+    background-color: black;
+    color: white;
+    position:fixed;
+    text-align: center;
+    left: 0;
+    width: 100%;
+    bottom: 0;
+}
